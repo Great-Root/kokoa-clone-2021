@@ -1,0 +1,28 @@
+.icons-row {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.icons-row__icon {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 25%;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.icons-row__icon i {
+  font-size: 35px;
+  position: relative;
+}
+
+.icons-row__icon span {
+  margin-top: 18px;
+  text-align: center;
+}
+
+.icon-row__TalkDrive-dot {
+  position: absolute;
+  top: -60%;
+}
